@@ -36,10 +36,11 @@ test:
 	nosetests
 
 pytest:
+	export PYTHONPATH=$$PYTHONPATH:`pwd`/src; \
 	py.test --capture=sys -s -x \
 		--doctest-modules \
 		--looponfail \
-		--pep8 tests
+		--pep8 src tests
 
 release: register
 	python setup.py sdist upload
