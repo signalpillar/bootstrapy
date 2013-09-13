@@ -35,6 +35,12 @@ lint:
 test:
 	nosetests
 
+pytest:
+	py.test --capture=sys -s -x \
+		--doctest-modules \
+		--looponfail \
+		--pep8 tests
+
 release: register
 	python setup.py sdist upload
 
