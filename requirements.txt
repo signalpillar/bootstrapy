@@ -6,4 +6,20 @@
 nose
 coverage
 flake8
+
+# doc generation tool
+
 sphinx
+
+# pytest dependencies
+
+pytest
+pytest-xdist>=1.8
+pytest-cov>=1.6
+pytest-pep8>=1.0.4
+
+# mick framework
+mock
+
+# for the joy with FP
+fn
