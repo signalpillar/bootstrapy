@@ -25,10 +25,10 @@ setup(
     author='Kiran Gangadharan',
     author_email='kiran.daredevil@gmail.com',
     url='http://github.com/kirang89/bootstrapy',
-    install_requires=[''],
+    install_requires=[],
     packages=[],
     include_package_data=True,
-    scripts=[''],
+    scripts=[],
     classifiers=(
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
